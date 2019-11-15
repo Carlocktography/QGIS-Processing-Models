@@ -1,0 +1,105 @@
+<!DOCTYPE model>
+<Option type="Map">
+  <Option type="Map" name="children">
+    <Option type="Map" name="PDALtools:pdalpipelineexecutor_1">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="PDALtools:pdalpipelineexecutor" type="QString" name="alg_id"/>
+      <Option value="PDAL pipeline executor" type="QString" name="component_description"/>
+      <Option value="230" type="double" name="component_pos_x"/>
+      <Option value="235" type="double" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option value="PDALtools:pdalpipelineexecutor_1" type="QString" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="OutputLAS">
+          <Option value="PDALtools:pdalpipelineexecutor_1" type="QString" name="child_id"/>
+          <Option value="OutputLAS" type="QString" name="component_description"/>
+          <Option value="292" type="double" name="component_pos_x"/>
+          <Option value="356" type="double" name="component_pos_y"/>
+          <Option value="" type="QString" name="default_value"/>
+          <Option value="true" type="bool" name="mandatory"/>
+          <Option value="OutputLAS" type="QString" name="name"/>
+          <Option value="OUTPUT_PCL" type="QString" name="output_name"/>
+        </Option>
+      </Option>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT_PCL_1">
+          <Option type="Map">
+            <Option value="inputpcl" type="QString" name="parameter_name"/>
+            <Option value="0" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT_PCL_2">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT_PIPELINE">
+          <Option type="Map">
+            <Option value="inputpipeline" type="QString" name="parameter_name"/>
+            <Option value="0" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT_SKIP_IF_OUT_EXISTS">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="false" type="bool" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+  </Option>
+  <Option name="help"/>
+  <Option value="PDALtools examples" type="QString" name="model_group"/>
+  <Option value="Run selecting Pipeline as File" type="QString" name="model_name"/>
+  <Option type="Map" name="parameterDefinitions">
+    <Option type="Map" name="PDALtools:pdalpipelineexecutor_1:OutputLAS">
+      <Option value="true" type="bool" name="create_by_default"/>
+      <Option value="" type="QString" name="default"/>
+      <Option value="OutputLAS" type="QString" name="description"/>
+      <Option value="All files (*.*)" type="QString" name="file_filter"/>
+      <Option value="0" type="int" name="flags"/>
+      <Option name="metadata"/>
+      <Option value="PDALtools:pdalpipelineexecutor_1:OutputLAS" type="QString" name="name"/>
+      <Option value="fileDestination" type="QString" name="parameter_type"/>
+      <Option value="true" type="bool" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="inputpcl">
+      <Option value="0" type="int" name="behavior"/>
+      <Option type="invalid" name="default"/>
+      <Option value="Input PCL" type="QString" name="description"/>
+      <Option value="" type="QString" name="extension"/>
+      <Option value="0" type="int" name="flags"/>
+      <Option name="metadata"/>
+      <Option value="inputpcl" type="QString" name="name"/>
+      <Option value="file" type="QString" name="parameter_type"/>
+    </Option>
+    <Option type="Map" name="inputpipeline">
+      <Option value="0" type="int" name="behavior"/>
+      <Option type="invalid" name="default"/>
+      <Option value="Input Pipeline" type="QString" name="description"/>
+      <Option value="" type="QString" name="extension"/>
+      <Option value="0" type="int" name="flags"/>
+      <Option name="metadata"/>
+      <Option value="inputpipeline" type="QString" name="name"/>
+      <Option value="file" type="QString" name="parameter_type"/>
+    </Option>
+  </Option>
+  <Option type="Map" name="parameters">
+    <Option type="Map" name="inputpcl">
+      <Option value="inputpcl" type="QString" name="component_description"/>
+      <Option value="158" type="double" name="component_pos_x"/>
+      <Option value="76" type="double" name="component_pos_y"/>
+      <Option value="inputpcl" type="QString" name="name"/>
+    </Option>
+    <Option type="Map" name="inputpipeline">
+      <Option value="inputpipeline" type="QString" name="component_description"/>
+      <Option value="396" type="double" name="component_pos_x"/>
+      <Option value="77" type="double" name="component_pos_y"/>
+      <Option value="inputpipeline" type="QString" name="name"/>
+    </Option>
+  </Option>
+</Option>

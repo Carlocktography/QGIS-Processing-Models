@@ -1,0 +1,45 @@
+<!DOCTYPE model>
+<Option type="Map">
+  <Option name="children"/>
+  <Option name="help"/>
+  <Option value="TownOfBrighton" type="QString" name="model_group"/>
+  <Option value="FromTo" type="QString" name="model_name"/>
+  <Option type="Map" name="parameterDefinitions">
+    <Option type="Map" name="inputintersections">
+      <Option type="List" name="data_types">
+        <Option value="0" type="int"/>
+      </Option>
+      <Option type="invalid" name="default"/>
+      <Option value="InputIntersections" type="QString" name="description"/>
+      <Option value="0" type="int" name="flags"/>
+      <Option name="metadata"/>
+      <Option value="inputintersections" type="QString" name="name"/>
+      <Option value="source" type="QString" name="parameter_type"/>
+    </Option>
+    <Option type="Map" name="inputvectorfeatures">
+      <Option type="List" name="data_types">
+        <Option value="1" type="int"/>
+      </Option>
+      <Option type="invalid" name="default"/>
+      <Option value="InputSegments" type="QString" name="description"/>
+      <Option value="0" type="int" name="flags"/>
+      <Option name="metadata"/>
+      <Option value="inputvectorfeatures" type="QString" name="name"/>
+      <Option value="source" type="QString" name="parameter_type"/>
+    </Option>
+  </Option>
+  <Option type="Map" name="parameters">
+    <Option type="Map" name="inputintersections">
+      <Option value="inputintersections" type="QString" name="component_description"/>
+      <Option value="106" type="double" name="component_pos_x"/>
+      <Option value="65" type="double" name="component_pos_y"/>
+      <Option value="inputintersections" type="QString" name="name"/>
+    </Option>
+    <Option type="Map" name="inputvectorfeatures">
+      <Option value="inputvectorfeatures" type="QString" name="component_description"/>
+      <Option value="105" type="double" name="component_pos_x"/>
+      <Option value="24" type="double" name="component_pos_y"/>
+      <Option value="inputvectorfeatures" type="QString" name="name"/>
+    </Option>
+  </Option>
+</Option>

@@ -1,0 +1,128 @@
+<!DOCTYPE model>
+<Option type="Map">
+  <Option type="Map" name="children">
+    <Option type="Map" name="native:stringconcatenation_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:stringconcatenation" name="alg_id"/>
+      <Option type="QString" value="set Intensity Ground pipeline" name="component_description"/>
+      <Option type="double" value="386" name="component_pos_x"/>
+      <Option type="double" value="108" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:stringconcatenation_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT_1">
+          <Option type="Map">
+            <Option type="QString" value="pipelinespath" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT_2">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="6_create_intensity_ground_raster.json" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="PDALtools:pdalpipelineexecutor_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="PDALtools:pdalpipelineexecutor" name="alg_id"/>
+      <Option type="QString" value="Intensity Ground" name="component_description"/>
+      <Option type="double" value="136" name="component_pos_x"/>
+      <Option type="double" value="189" name="component_pos_y"/>
+      <Option type="StringList" name="dependencies">
+        <Option type="QString" value="native:stringconcatenation_1"/>
+      </Option>
+      <Option type="QString" value="PDALtools:pdalpipelineexecutor_1" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="Intensity ground">
+          <Option type="QString" value="PDALtools:pdalpipelineexecutor_1" name="child_id"/>
+          <Option type="QString" value="Intensity ground" name="component_description"/>
+          <Option type="double" value="132" name="component_pos_x"/>
+          <Option type="double" value="287" name="component_pos_y"/>
+          <Option type="invalid" name="default_value"/>
+          <Option type="bool" value="false" name="mandatory"/>
+          <Option type="QString" value="Intensity ground" name="name"/>
+          <Option type="QString" value="OUTPUT_PCL" name="output_name"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT_PCL_1">
+          <Option type="Map">
+            <Option type="QString" value="segmentedandfilteredpcl" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT_PCL_2">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT_PIPELINE">
+          <Option type="Map">
+            <Option type="QString" value=" @set_Intensity_Ground_pipeline_CONCATENATION " name="expression"/>
+            <Option type="int" value="3" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+  </Option>
+  <Option name="help"/>
+  <Option type="QString" value="GeoMove Submodels" name="model_group"/>
+  <Option type="QString" value="Intensity ground from PCL" name="model_name"/>
+  <Option type="Map" name="parameterDefinitions">
+    <Option type="Map" name="pipelinespath">
+      <Option type="int" value="1" name="behavior"/>
+      <Option type="invalid" name="default"/>
+      <Option type="QString" value="Pipelines path" name="description"/>
+      <Option type="QString" value="" name="extension"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option name="metadata"/>
+      <Option type="QString" value="pipelinespath" name="name"/>
+      <Option type="QString" value="file" name="parameter_type"/>
+    </Option>
+    <Option type="Map" name="PDALtools:pdalpipelineexecutor_1:Intensity ground">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option type="QString" value="Intensity ground" name="description"/>
+      <Option type="QString" value="las" name="file_filter"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option name="metadata"/>
+      <Option type="QString" value="PDALtools:pdalpipelineexecutor_1:Intensity ground" name="name"/>
+      <Option type="QString" value="fileDestination" name="parameter_type"/>
+      <Option type="bool" value="true" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="segmentedandfilteredpcl">
+      <Option type="int" value="0" name="behavior"/>
+      <Option type="invalid" name="default"/>
+      <Option type="QString" value="Segmented and Filtered PCL" name="description"/>
+      <Option type="QString" value="" name="extension"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option name="metadata"/>
+      <Option type="QString" value="segmentedandfilteredpcl" name="name"/>
+      <Option type="QString" value="file" name="parameter_type"/>
+    </Option>
+  </Option>
+  <Option type="Map" name="parameters">
+    <Option type="Map" name="pipelinespath">
+      <Option type="QString" value="pipelinespath" name="component_description"/>
+      <Option type="double" value="397" name="component_pos_x"/>
+      <Option type="double" value="37" name="component_pos_y"/>
+      <Option type="QString" value="pipelinespath" name="name"/>
+    </Option>
+    <Option type="Map" name="segmentedandfilteredpcl">
+      <Option type="QString" value="segmentedandfilteredpcl" name="component_description"/>
+      <Option type="double" value="131" name="component_pos_x"/>
+      <Option type="double" value="37" name="component_pos_y"/>
+      <Option type="QString" value="segmentedandfilteredpcl" name="name"/>
+    </Option>
+  </Option>
+</Option>
