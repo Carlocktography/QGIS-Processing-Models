@@ -2,281 +2,281 @@
 <Option type="Map">
   <Option name="children" type="Map">
     <Option name="native:fixgeometries_1" type="Map">
-      <Option name="active" value="true" type="bool"/>
+      <Option name="active" type="bool" value="true"/>
       <Option name="alg_config"/>
-      <Option name="alg_id" value="native:fixgeometries" type="QString"/>
-      <Option name="component_description" value="Fix Geometries" type="QString"/>
-      <Option name="component_pos_x" value="216" type="double"/>
-      <Option name="component_pos_y" value="93" type="double"/>
+      <Option name="alg_id" type="QString" value="native:fixgeometries"/>
+      <Option name="component_description" type="QString" value="Fix Geometries"/>
+      <Option name="component_pos_x" type="double" value="216"/>
+      <Option name="component_pos_y" type="double" value="93"/>
       <Option name="dependencies"/>
-      <Option name="id" value="native:fixgeometries_1" type="QString"/>
+      <Option name="id" type="QString" value="native:fixgeometries_1"/>
       <Option name="outputs"/>
-      <Option name="outputs_collapsed" value="false" type="bool"/>
-      <Option name="parameters_collapsed" value="false" type="bool"/>
+      <Option name="outputs_collapsed" type="bool" value="false"/>
+      <Option name="parameters_collapsed" type="bool" value="false"/>
       <Option name="params" type="Map">
         <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option name="parameter_name" value="vectorlayer" type="QString"/>
-            <Option name="source" value="0" type="int"/>
+            <Option name="parameter_name" type="QString" value="vectorlayer"/>
+            <Option name="source" type="int" value="0"/>
           </Option>
         </Option>
       </Option>
     </Option>
     <Option name="native:package_3" type="Map">
-      <Option name="active" value="true" type="bool"/>
+      <Option name="active" type="bool" value="true"/>
       <Option name="alg_config"/>
-      <Option name="alg_id" value="native:package" type="QString"/>
-      <Option name="component_description" value="Package Layers" type="QString"/>
-      <Option name="component_pos_x" value="1129.7526205450733" type="double"/>
-      <Option name="component_pos_y" value="602.0789308176102" type="double"/>
+      <Option name="alg_id" type="QString" value="native:package"/>
+      <Option name="component_description" type="QString" value="Package Layers"/>
+      <Option name="component_pos_x" type="double" value="1129.7526205450733"/>
+      <Option name="component_pos_y" type="double" value="602.0789308176102"/>
       <Option name="dependencies"/>
-      <Option name="id" value="native:package_3" type="QString"/>
+      <Option name="id" type="QString" value="native:package_3"/>
       <Option name="outputs" type="Map">
         <Option name="Output GeoPackage" type="Map">
-          <Option name="child_id" value="native:package_3" type="QString"/>
-          <Option name="component_description" value="Output GeoPackage" type="QString"/>
-          <Option name="component_pos_x" value="1329.7526205450733" type="double"/>
-          <Option name="component_pos_y" value="647.0789308176102" type="double"/>
+          <Option name="child_id" type="QString" value="native:package_3"/>
+          <Option name="component_description" type="QString" value="Output GeoPackage"/>
+          <Option name="component_pos_x" type="double" value="1329.7526205450733"/>
+          <Option name="component_pos_y" type="double" value="647.0789308176102"/>
           <Option name="default_value" type="invalid"/>
-          <Option name="mandatory" value="false" type="bool"/>
-          <Option name="name" value="Output GeoPackage" type="QString"/>
-          <Option name="output_name" value="OUTPUT" type="QString"/>
+          <Option name="mandatory" type="bool" value="false"/>
+          <Option name="name" type="QString" value="Output GeoPackage"/>
+          <Option name="output_name" type="QString" value="OUTPUT"/>
         </Option>
       </Option>
-      <Option name="outputs_collapsed" value="false" type="bool"/>
-      <Option name="parameters_collapsed" value="false" type="bool"/>
+      <Option name="outputs_collapsed" type="bool" value="false"/>
+      <Option name="parameters_collapsed" type="bool" value="false"/>
       <Option name="params" type="Map">
         <Option name="LAYERS" type="List">
           <Option type="Map">
-            <Option name="child_id" value="qgis:createattributeindex_1" type="QString"/>
-            <Option name="output_name" value="OUTPUT" type="QString"/>
-            <Option name="source" value="1" type="int"/>
+            <Option name="child_id" type="QString" value="qgis:createattributeindex_1"/>
+            <Option name="output_name" type="QString" value="OUTPUT"/>
+            <Option name="source" type="int" value="1"/>
           </Option>
         </Option>
         <Option name="OVERWRITE" type="List">
           <Option type="Map">
-            <Option name="source" value="2" type="int"/>
-            <Option name="static_value" value="false" type="bool"/>
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="bool" value="false"/>
           </Option>
         </Option>
         <Option name="SAVE_STYLES" type="List">
           <Option type="Map">
-            <Option name="source" value="2" type="int"/>
-            <Option name="static_value" value="false" type="bool"/>
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="bool" value="false"/>
           </Option>
         </Option>
       </Option>
     </Option>
     <Option name="native:reprojectlayer_1" type="Map">
-      <Option name="active" value="true" type="bool"/>
+      <Option name="active" type="bool" value="true"/>
       <Option name="alg_config"/>
-      <Option name="alg_id" value="native:reprojectlayer" type="QString"/>
-      <Option name="component_description" value="Reproject Layer" type="QString"/>
-      <Option name="component_pos_x" value="437" type="double"/>
-      <Option name="component_pos_y" value="185" type="double"/>
+      <Option name="alg_id" type="QString" value="native:reprojectlayer"/>
+      <Option name="component_description" type="QString" value="Reproject Layer"/>
+      <Option name="component_pos_x" type="double" value="437"/>
+      <Option name="component_pos_y" type="double" value="185"/>
       <Option name="dependencies"/>
-      <Option name="id" value="native:reprojectlayer_1" type="QString"/>
+      <Option name="id" type="QString" value="native:reprojectlayer_1"/>
       <Option name="outputs"/>
-      <Option name="outputs_collapsed" value="false" type="bool"/>
-      <Option name="parameters_collapsed" value="false" type="bool"/>
+      <Option name="outputs_collapsed" type="bool" value="false"/>
+      <Option name="parameters_collapsed" type="bool" value="false"/>
       <Option name="params" type="Map">
         <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option name="child_id" value="native:fixgeometries_1" type="QString"/>
-            <Option name="output_name" value="OUTPUT" type="QString"/>
-            <Option name="source" value="1" type="int"/>
+            <Option name="child_id" type="QString" value="native:fixgeometries_1"/>
+            <Option name="output_name" type="QString" value="OUTPUT"/>
+            <Option name="source" type="int" value="1"/>
           </Option>
         </Option>
         <Option name="TARGET_CRS" type="List">
           <Option type="Map">
-            <Option name="parameter_name" value="crs" type="QString"/>
-            <Option name="source" value="0" type="int"/>
+            <Option name="parameter_name" type="QString" value="crs"/>
+            <Option name="source" type="int" value="0"/>
           </Option>
         </Option>
       </Option>
     </Option>
     <Option name="native:simplifygeometries_1" type="Map">
-      <Option name="active" value="true" type="bool"/>
+      <Option name="active" type="bool" value="true"/>
       <Option name="alg_config"/>
-      <Option name="alg_id" value="native:simplifygeometries" type="QString"/>
-      <Option name="component_description" value="Simplify" type="QString"/>
-      <Option name="component_pos_x" value="573" type="double"/>
-      <Option name="component_pos_y" value="327" type="double"/>
+      <Option name="alg_id" type="QString" value="native:simplifygeometries"/>
+      <Option name="component_description" type="QString" value="Simplify"/>
+      <Option name="component_pos_x" type="double" value="573"/>
+      <Option name="component_pos_y" type="double" value="327"/>
       <Option name="dependencies"/>
-      <Option name="id" value="native:simplifygeometries_1" type="QString"/>
+      <Option name="id" type="QString" value="native:simplifygeometries_1"/>
       <Option name="outputs"/>
-      <Option name="outputs_collapsed" value="false" type="bool"/>
-      <Option name="parameters_collapsed" value="false" type="bool"/>
+      <Option name="outputs_collapsed" type="bool" value="false"/>
+      <Option name="parameters_collapsed" type="bool" value="false"/>
       <Option name="params" type="Map">
         <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option name="child_id" value="native:reprojectlayer_1" type="QString"/>
-            <Option name="output_name" value="OUTPUT" type="QString"/>
-            <Option name="source" value="1" type="int"/>
+            <Option name="child_id" type="QString" value="native:reprojectlayer_1"/>
+            <Option name="output_name" type="QString" value="OUTPUT"/>
+            <Option name="source" type="int" value="1"/>
           </Option>
         </Option>
         <Option name="METHOD" type="List">
           <Option type="Map">
-            <Option name="parameter_name" value="simplificationchoices" type="QString"/>
-            <Option name="source" value="0" type="int"/>
+            <Option name="parameter_name" type="QString" value="simplificationchoices"/>
+            <Option name="source" type="int" value="0"/>
           </Option>
         </Option>
         <Option name="TOLERANCE" type="List">
           <Option type="Map">
-            <Option name="parameter_name" value="simplificationtoleranceincrsunitsunitspixel" type="QString"/>
-            <Option name="source" value="0" type="int"/>
+            <Option name="parameter_name" type="QString" value="simplificationtoleranceincrsunitsunitspixel"/>
+            <Option name="source" type="int" value="0"/>
           </Option>
         </Option>
       </Option>
     </Option>
     <Option name="qgis:createattributeindex_1" type="Map">
-      <Option name="active" value="true" type="bool"/>
+      <Option name="active" type="bool" value="true"/>
       <Option name="alg_config"/>
-      <Option name="alg_id" value="qgis:createattributeindex" type="QString"/>
-      <Option name="component_description" value="Create Attribute Index" type="QString"/>
-      <Option name="component_pos_x" value="922.3777777777777" type="double"/>
-      <Option name="component_pos_y" value="510.807966457023" type="double"/>
+      <Option name="alg_id" type="QString" value="qgis:createattributeindex"/>
+      <Option name="component_description" type="QString" value="Create Attribute Index"/>
+      <Option name="component_pos_x" type="double" value="922.3777777777777"/>
+      <Option name="component_pos_y" type="double" value="510.807966457023"/>
       <Option name="dependencies"/>
-      <Option name="id" value="qgis:createattributeindex_1" type="QString"/>
+      <Option name="id" type="QString" value="qgis:createattributeindex_1"/>
       <Option name="outputs"/>
-      <Option name="outputs_collapsed" value="false" type="bool"/>
-      <Option name="parameters_collapsed" value="false" type="bool"/>
+      <Option name="outputs_collapsed" type="bool" value="false"/>
+      <Option name="parameters_collapsed" type="bool" value="false"/>
       <Option name="params" type="Map">
         <Option name="FIELD" type="List">
           <Option type="Map">
-            <Option name="source" value="2" type="int"/>
-            <Option name="static_value" value="*" type="QString"/>
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="QString" value="*"/>
           </Option>
         </Option>
         <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option name="child_id" value="qgis:createspatialindex_1" type="QString"/>
-            <Option name="output_name" value="OUTPUT" type="QString"/>
-            <Option name="source" value="1" type="int"/>
+            <Option name="child_id" type="QString" value="qgis:createspatialindex_1"/>
+            <Option name="output_name" type="QString" value="OUTPUT"/>
+            <Option name="source" type="int" value="1"/>
           </Option>
         </Option>
       </Option>
     </Option>
     <Option name="qgis:createspatialindex_1" type="Map">
-      <Option name="active" value="true" type="bool"/>
+      <Option name="active" type="bool" value="true"/>
       <Option name="alg_config"/>
-      <Option name="alg_id" value="qgis:createspatialindex" type="QString"/>
-      <Option name="component_description" value="Create Spatial Index" type="QString"/>
-      <Option name="component_pos_x" value="727.3702306079666" type="double"/>
-      <Option name="component_pos_y" value="418.787002096436" type="double"/>
+      <Option name="alg_id" type="QString" value="qgis:createspatialindex"/>
+      <Option name="component_description" type="QString" value="Create Spatial Index"/>
+      <Option name="component_pos_x" type="double" value="727.3702306079666"/>
+      <Option name="component_pos_y" type="double" value="418.787002096436"/>
       <Option name="dependencies"/>
-      <Option name="id" value="qgis:createspatialindex_1" type="QString"/>
+      <Option name="id" type="QString" value="qgis:createspatialindex_1"/>
       <Option name="outputs"/>
-      <Option name="outputs_collapsed" value="false" type="bool"/>
-      <Option name="parameters_collapsed" value="false" type="bool"/>
+      <Option name="outputs_collapsed" type="bool" value="false"/>
+      <Option name="parameters_collapsed" type="bool" value="false"/>
       <Option name="params" type="Map">
         <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option name="child_id" value="native:simplifygeometries_1" type="QString"/>
-            <Option name="output_name" value="OUTPUT" type="QString"/>
-            <Option name="source" value="1" type="int"/>
+            <Option name="child_id" type="QString" value="native:simplifygeometries_1"/>
+            <Option name="output_name" type="QString" value="OUTPUT"/>
+            <Option name="source" type="int" value="1"/>
           </Option>
         </Option>
       </Option>
     </Option>
   </Option>
   <Option name="help" type="Map">
-    <Option name="ALG_CREATOR" value="Saijin_Naib" type="QString"/>
-    <Option name="ALG_DESC" value="This algorithm serves to provide a simplified method to pre-process and prepare Vector data sources for integration into our local database. It accomplishes this by running the following processing algorithms:&#xa;Fix Geometries&#xa;Reproject Layer&#xa;Simplify&#xa;Create Spatial Index&#xa;Create Attribute Index&#xa;Package Layers" type="QString"/>
-    <Option name="ALG_HELP_CREATOR" value="Saijin_Naib" type="QString"/>
-    <Option name="ALG_VERSION" value="0.5" type="QString"/>
-    <Option name="HELP_URL" value="https://github.com/Saijin-Naib/QGIS-Processing-Models" type="QString"/>
-    <Option name="SHORT_DESCRIPTION" value="Fix, Reproject, Simplify, Index, and package Vector data in one easy step." type="QString"/>
-    <Option name="crs" value="The desired CRS of the processed vector data." type="QString"/>
-    <Option name="native:package_3:Output GeoPackage" value="The resultant Geopackage containing the processed vector data." type="QString"/>
-    <Option name="simplificationchoices" value="0 - Distance (Douglas-Peucker)&#xa;Attempt to find a similar curve using fewer points by comparing the Hausdorff distance between input/output curves.&#xa;&#xa;1 - Snap To Grid&#xa;Attempt to simplify curve by snapping closest vertices to a grid node while dropping verticies that are not snapped to a grid node.&#xa;&#xa;2 - Visvalingam&#xa;Attempt to find and remove the least significant verticies from the input curve so that the output curve isn't perceptibly different." type="QString"/>
-    <Option name="simplificationtoleranceincrsunitsunitspixel" value="The desired spatial resolution of the processed vector data in CRS units per pixel. For instance, in EPSG: 4326 this would be degrees/pixel." type="QString"/>
-    <Option name="vectorlayer" value="The vector data to be processed using this model." type="QString"/>
+    <Option name="ALG_CREATOR" type="QString" value="Saijin_Naib"/>
+    <Option name="ALG_DESC" type="QString" value="This algorithm serves to provide a simplified method to pre-process and prepare Vector data sources for integration into our local database. It accomplishes this by running the following processing algorithms:&#xa;Fix Geometries&#xa;Reproject Layer&#xa;Simplify&#xa;Create Spatial Index&#xa;Create Attribute Index&#xa;Package Layers"/>
+    <Option name="ALG_HELP_CREATOR" type="QString" value="Saijin_Naib"/>
+    <Option name="ALG_VERSION" type="QString" value="0.5"/>
+    <Option name="HELP_URL" type="QString" value="https://github.com/Saijin-Naib/QGIS-Processing-Models"/>
+    <Option name="SHORT_DESCRIPTION" type="QString" value="Fix, Reproject, Simplify, Index, and package Vector data in one easy step."/>
+    <Option name="crs" type="QString" value="The desired CRS of the processed vector data."/>
+    <Option name="native:package_3:Output GeoPackage" type="QString" value="The resultant Geopackage containing the processed vector data."/>
+    <Option name="simplificationchoices" type="QString" value="0 - Distance (Douglas-Peucker)&#xa;Attempt to find a similar curve using fewer points by comparing the Hausdorff distance between input/output curves.&#xa;&#xa;1 - Snap To Grid&#xa;Attempt to simplify curve by snapping closest vertices to a grid node while dropping verticies that are not snapped to a grid node.&#xa;&#xa;2 - Visvalingam&#xa;Attempt to find and remove the least significant verticies from the input curve so that the output curve isn't perceptibly different."/>
+    <Option name="simplificationtoleranceincrsunitsunitspixel" type="QString" value="The desired spatial resolution of the processed vector data in CRS units per pixel. For instance, in EPSG: 4326 this would be degrees/pixel."/>
+    <Option name="vectorlayer" type="QString" value="The vector data to be processed using this model."/>
   </Option>
   <Option name="modelVariables"/>
-  <Option name="model_group" value="TownOfBrighton" type="QString"/>
-  <Option name="model_name" value="Cleanup" type="QString"/>
+  <Option name="model_group" type="QString" value="TownOfBrighton"/>
+  <Option name="model_name" type="QString" value="Cleanup"/>
   <Option name="parameterDefinitions" type="Map">
     <Option name="crs" type="Map">
-      <Option name="default" value="EPSG:4326" type="QString"/>
-      <Option name="description" value="Coordinate Reference System (CRS):" type="QString"/>
-      <Option name="flags" value="2" type="int"/>
+      <Option name="default" type="QString" value="EPSG:4326"/>
+      <Option name="description" type="QString" value="Coordinate Reference System (CRS):"/>
+      <Option name="flags" type="int" value="2"/>
       <Option name="metadata"/>
-      <Option name="name" value="crs" type="QString"/>
-      <Option name="parameter_type" value="crs" type="QString"/>
+      <Option name="name" type="QString" value="crs"/>
+      <Option name="parameter_type" type="QString" value="crs"/>
     </Option>
     <Option name="native:package_3:Output GeoPackage" type="Map">
-      <Option name="create_by_default" value="true" type="bool"/>
+      <Option name="create_by_default" type="bool" value="true"/>
       <Option name="default" type="invalid"/>
-      <Option name="description" value="Output GeoPackage" type="QString"/>
-      <Option name="file_filter" value="GeoPackage files (*.gpkg)" type="QString"/>
-      <Option name="flags" value="0" type="int"/>
+      <Option name="description" type="QString" value="Output GeoPackage"/>
+      <Option name="file_filter" type="QString" value="GeoPackage files (*.gpkg)"/>
+      <Option name="flags" type="int" value="0"/>
       <Option name="metadata"/>
-      <Option name="name" value="native:package_3:Output GeoPackage" type="QString"/>
-      <Option name="parameter_type" value="fileDestination" type="QString"/>
-      <Option name="supports_non_file_outputs" value="true" type="bool"/>
+      <Option name="name" type="QString" value="native:package_3:Output GeoPackage"/>
+      <Option name="parameter_type" type="QString" value="fileDestination"/>
+      <Option name="supports_non_file_outputs" type="bool" value="true"/>
     </Option>
     <Option name="simplificationchoices" type="Map">
-      <Option name="allow_multiple" value="false" type="bool"/>
-      <Option name="default" value="0" type="int"/>
-      <Option name="description" value="Simplification Method" type="QString"/>
-      <Option name="flags" value="2" type="int"/>
+      <Option name="allow_multiple" type="bool" value="false"/>
+      <Option name="default" type="int" value="2"/>
+      <Option name="description" type="QString" value="Simplification Method"/>
+      <Option name="flags" type="int" value="2"/>
       <Option name="metadata"/>
-      <Option name="name" value="simplificationchoices" type="QString"/>
+      <Option name="name" type="QString" value="simplificationchoices"/>
       <Option name="options" type="StringList">
-        <Option value="Distance (Douglas-Peucker)" type="QString"/>
-        <Option value="Snap To Grid" type="QString"/>
-        <Option value="Visvalingam" type="QString"/>
+        <Option type="QString" value="Distance (Douglas-Peucker)"/>
+        <Option type="QString" value="Snap To Grid"/>
+        <Option type="QString" value="Visvalingam"/>
       </Option>
-      <Option name="parameter_type" value="enum" type="QString"/>
+      <Option name="parameter_type" type="QString" value="enum"/>
     </Option>
     <Option name="simplificationtoleranceincrsunitsunitspixel" type="Map">
-      <Option name="data_type" value="1" type="int"/>
-      <Option name="default" value="0.001" type="QString"/>
-      <Option name="description" value="Simplification Tolerance in CRS Units (units/pixel):" type="QString"/>
-      <Option name="flags" value="2" type="int"/>
-      <Option name="max" value="1.7976931348623157e+308" type="double"/>
+      <Option name="data_type" type="int" value="1"/>
+      <Option name="default" type="QString" value="0.001"/>
+      <Option name="description" type="QString" value="Simplification Tolerance in CRS Units (units/pixel):"/>
+      <Option name="flags" type="int" value="2"/>
+      <Option name="max" type="double" value="1.7976931348623157e+308"/>
       <Option name="metadata"/>
-      <Option name="min" value="0" type="double"/>
-      <Option name="name" value="simplificationtoleranceincrsunitsunitspixel" type="QString"/>
-      <Option name="parameter_type" value="number" type="QString"/>
+      <Option name="min" type="double" value="0"/>
+      <Option name="name" type="QString" value="simplificationtoleranceincrsunitsunitspixel"/>
+      <Option name="parameter_type" type="QString" value="number"/>
     </Option>
     <Option name="vectorlayer" type="Map">
       <Option name="data_types" type="List">
-        <Option value="-1" type="int"/>
+        <Option type="int" value="-1"/>
       </Option>
       <Option name="default" type="invalid"/>
-      <Option name="description" value="Input Vector Dataset" type="QString"/>
-      <Option name="flags" value="0" type="int"/>
+      <Option name="description" type="QString" value="Input Vector Dataset"/>
+      <Option name="flags" type="int" value="0"/>
       <Option name="metadata"/>
-      <Option name="name" value="vectorlayer" type="QString"/>
-      <Option name="parameter_type" value="vector" type="QString"/>
+      <Option name="name" type="QString" value="vectorlayer"/>
+      <Option name="parameter_type" type="QString" value="vector"/>
     </Option>
   </Option>
   <Option name="parameters" type="Map">
     <Option name="crs" type="Map">
-      <Option name="component_description" value="crs" type="QString"/>
-      <Option name="component_pos_x" value="438" type="double"/>
-      <Option name="component_pos_y" value="52" type="double"/>
-      <Option name="name" value="crs" type="QString"/>
+      <Option name="component_description" type="QString" value="crs"/>
+      <Option name="component_pos_x" type="double" value="438"/>
+      <Option name="component_pos_y" type="double" value="52"/>
+      <Option name="name" type="QString" value="crs"/>
     </Option>
     <Option name="simplificationchoices" type="Map">
-      <Option name="component_description" value="simplificationchoices" type="QString"/>
-      <Option name="component_pos_x" value="857" type="double"/>
-      <Option name="component_pos_y" value="223" type="double"/>
-      <Option name="name" value="simplificationchoices" type="QString"/>
+      <Option name="component_description" type="QString" value="simplificationchoices"/>
+      <Option name="component_pos_x" type="double" value="857"/>
+      <Option name="component_pos_y" type="double" value="223"/>
+      <Option name="name" type="QString" value="simplificationchoices"/>
     </Option>
     <Option name="simplificationtoleranceincrsunitsunitspixel" type="Map">
-      <Option name="component_description" value="simplificationtoleranceincrsunitsunitspixel" type="QString"/>
-      <Option name="component_pos_x" value="684" type="double"/>
-      <Option name="component_pos_y" value="156" type="double"/>
-      <Option name="name" value="simplificationtoleranceincrsunitsunitspixel" type="QString"/>
+      <Option name="component_description" type="QString" value="simplificationtoleranceincrsunitsunitspixel"/>
+      <Option name="component_pos_x" type="double" value="684"/>
+      <Option name="component_pos_y" type="double" value="156"/>
+      <Option name="name" type="QString" value="simplificationtoleranceincrsunitsunitspixel"/>
     </Option>
     <Option name="vectorlayer" type="Map">
-      <Option name="component_description" value="vectorlayer" type="QString"/>
-      <Option name="component_pos_x" value="107" type="double"/>
-      <Option name="component_pos_y" value="19" type="double"/>
-      <Option name="name" value="vectorlayer" type="QString"/>
+      <Option name="component_description" type="QString" value="vectorlayer"/>
+      <Option name="component_pos_x" type="double" value="107"/>
+      <Option name="component_pos_y" type="double" value="19"/>
+      <Option name="name" type="QString" value="vectorlayer"/>
     </Option>
   </Option>
 </Option>
