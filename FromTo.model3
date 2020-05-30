@@ -2,7 +2,7 @@
 <Option type="Map">
   <Option name="children"/>
   <Option name="help"/>
-  <Option value="TownOfBrighton" type="QString" name="model_group"/>
+  <Option value="Saijin_Naib" type="QString" name="model_group"/>
   <Option value="FromTo" type="QString" name="model_name"/>
   <Option type="Map" name="parameterDefinitions">
     <Option type="Map" name="inputintersections">
