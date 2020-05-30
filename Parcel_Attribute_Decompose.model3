@@ -651,7 +651,7 @@
   </Option>
   <Option name="help"/>
   <Option name="modelVariables"/>
-  <Option value="TownOfBrighton" type="QString" name="model_group"/>
+  <Option value="Saijin_Naib" type="QString" name="model_group"/>
   <Option value="Parcel_Attribute_Decompose" type="QString" name="model_name"/>
   <Option type="Map" name="parameterDefinitions">
     <Option type="Map" name="input">
