@@ -253,7 +253,7 @@
   </Option>
   <Option name="help"/>
   <Option name="modelVariables"/>
-  <Option name="model_group" value="TownOfBrighton" type="QString"/>
+  <Option name="model_group" value="Saijin_Naib" type="QString"/>
   <Option name="model_name" value="Shaded Relief" type="QString"/>
   <Option name="parameterDefinitions" type="Map">
     <Option name="InputRasterData" type="Map">
