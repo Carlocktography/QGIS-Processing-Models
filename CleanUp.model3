@@ -194,7 +194,7 @@
     <Option name="vectorlayer" type="QString" value="The vector data to be processed using this model."/>
   </Option>
   <Option name="modelVariables"/>
-  <Option name="model_group" type="QString" value="TownOfBrighton"/>
+  <Option name="model_group" type="QString" value="Saijin_Naib"/>
   <Option name="model_name" type="QString" value="Cleanup"/>
   <Option name="parameterDefinitions" type="Map">
     <Option name="crs" type="Map">
